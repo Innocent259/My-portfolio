@@ -30,14 +30,13 @@ body {
 }
 
 .hero {
-  background: #1c1a19 url("../images/Illustration.svg") 100% 100% no-repeat;
+  background: #1c1a19 url("../assets/images/Illustration.svg") 100% 100% no-repeat;
 }
 
 .main {
   height: 36.875rem;
   left: 0;
-  top: 53px;
-  padding: 120px 24px 120px 24px;
+  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
 }
 
 .main-header {
