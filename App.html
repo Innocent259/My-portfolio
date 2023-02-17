@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" >
+        <meta charset="UTF-8">
         <title>Innocent's Portfolio</title>
+        <link rel="stylesheet" href="App.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body class="container">
-        <div>
-            <div class="top"></div>
+        <header class="header">
             <nav class="nav">
-                <div class="nav-nav">
-                    <h1 class="nav-nav-title">Innocent N.</h1>
-                    <img class ="nav-nav-menu"src="./images/menu.png" alt="menu-icon" />
-                </div>
+                <h1 class="nav-title">Innocent N.</h1>
+                <img src="./images/menu.png" alt="menu-icon" class ="nav-menu"/>      
             </nav>
-        </div>
-       
-        <div class="main">
-            <h1 class="main-header">Hey There.<br>I'm Innocent</h1>
-            <h2 class="sub-header">I'm a Software Developer</h2>
-            <p class="main-paragraph"> can help you build a product,
-                feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded, 
-                don't hestitate to contact me.</p>
-        </div>
-        <div class="social-media">
-            <img src="images/github.png" alt="github logo" />
-            <img src="images/linkedin.png" alt="linkedin logo" />
-            <img src="images/angelist.png" alt="angelist logo" />
-            <img src="images/twitter.png" alt="twitter logo" />
-            <img src="images/medium.png" alt="medium logo" />
-        </div>
+        </header>
+        <section class="hero">
+            <div class="main">
+                <h1 class="main-header">Hey There.<br>I'm Innocent</h1>
+                <h2 class="sub-header">I'm a Software Developer</h2>
+                <p class="main-paragraph">I can help you build a product,
+                    feature or website Look through some of my work and experience!
+                    If you like what you see and have a project you need coded, 
+                    don't hestitate to contact me.</p>
+                <ul class="social-media">
+                    <li>
+                        <a href="#">
+                             <img src="images/github.png" alt="github logo" class="github"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/linkedin.png" alt="linkedin logo" class="linkedin" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/angelist.png" alt="angelist logo" class="angelist"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/twitter.png" alt="twitter logo" class="twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                             <img src="images/medium.png" alt="medium logo" class="medium"/>
+                        </a>
+                    </li>  
+                </ul>
+            </div> 
+        </section>   
     </body>
 </html>
