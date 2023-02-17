@@ -34,7 +34,7 @@ body {
 }
 
 .main {
-  height: 590px;
+  height: 36.875rem;
   left: 0;
   top: 53px;
   padding: 120px 24px 120px 24px;
@@ -55,7 +55,7 @@ body {
 
 .main-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
 }
 

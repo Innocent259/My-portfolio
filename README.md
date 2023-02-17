@@ -47,7 +47,7 @@ Clone this repository to your desired folder:
 cd my-folder
 
 - clone the repository:
-  git clone git@github.com:Innocent259/Hello-World.git
+  git clone git@github.com:Innocent259/My-portfolio.git
 
 ### Install
 
@@ -80,7 +80,7 @@ Feel free to check the [issues page](../../issues/).
 
 pray Acknowledgments
 
-I would like to thank partner Ismael, he assisted me to build this project.
+First and foremost I thank all my coding partners for their encouragement and help.
 
 ## Show your support
 
