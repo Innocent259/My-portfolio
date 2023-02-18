@@ -32,7 +32,7 @@ body {
 }
 
 .hero {
-  background: #1c1a19 url("../assets/images/Illustration.svg") 100% 100% no-repeat;
+  background: #1c1a19 url("../images/Illustration.svg") 100% 100% no-repeat;
 }
 
 .main {
@@ -70,9 +70,9 @@ li {
   list-style: none;
 }
 
-/* .prev-works, .experience-container, .about-container, .about-me {
+.prev-works, .experience-container, .about-container, .about-me {
   padding: 7.5rem 1.5rem 7.5rem 1.5rem;
-} */
+}
 
 .experience-title {
   margin: auto;
@@ -142,7 +142,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: url("../assets/images/Mask Group.svg") 50% 50% no-repeat;
+  background: url("../images/Mask Group.svg") 50% 50% no-repeat;
   font-family: 'Inter', sans-serif;
   color: #fff;
   height: 386px;
@@ -194,7 +194,7 @@ li {
 }
 
 .about-me-1 {
-  background: url("../assets/images/illustration-about-me.svg") bottom -30px right no-repeat;
+  background: url("../images/illustration-about-me.svg") bottom -30px right no-repeat;
   height: 563px;
   display: flex;
   flex-direction: column;
