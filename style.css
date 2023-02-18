@@ -1,6 +1,8 @@
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin-left: 24px;
+  display: grid;
+  grid-template-columns: (1, 386px);
 }
 
 .header {
@@ -30,13 +32,12 @@ body {
 }
 
 .hero {
-  background: #1c1a19 url("images/Illustration.svg") 100% 100% no-repeat;
+  background: #1c1a19 url("../images/Illustration.svg") 100% 100% no-repeat;
 }
 
 .main {
   height: 36.875rem;
   left: 0;
-  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
 }
 
 .main-header {
@@ -54,7 +55,7 @@ body {
 
 .main-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
@@ -67,4 +68,203 @@ body {
 
 li {
   list-style: none;
+}
+
+.prev-works, .experience-container, .about-container, .about-me {
+  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
+}
+
+.experience-title {
+  margin: auto;
+  font-family: 'Crete Round', serif;
+  color: #1c1a19;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.line {
+  border: 1px solid #212121;
+  width: 327px;
+  height: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.project-1-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-1-img {
+  width: 327px;
+  height: 237px;
+}
+
+.project-1-title {
+  font-family: 'Crete Round', serif;
+  color: #091e42;
+  font-size: 32px;
+}
+
+.project-1-para {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+.project-1-list {
+  display: flex;
+  height: 40px;
+  gap: 12px;
+}
+
+.project-1-btn {
+  height: 48px;
+  width: 124px;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+.common-components {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 120px;
+}
+
+.project-x {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: url("../images/Mask Group.svg") 50% 50% no-repeat;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  height: 386px;
+  width: 327px;
+}
+
+.project-x-title {
+  font-size: 2rem;
+  padding-left: 24px;
+}
+
+.project-x-para {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+.project-x-list {
+  display: flex;
+  gap: 12px;
+}
+
+.proj-list {
+  height: 40px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.project-btn {
+  height: 48px;
+  width: auto;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+
+.about-me {
+  background-color: #1c1a19;
+  width: 375px;
+  height: auto;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  grid-gap: 120px;
+}
+
+.about-me-1 {
+  background: url("../images/illustration-about-me.svg") bottom -30px right no-repeat;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-me-title {
+  height: 79px;
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-top: 120px;
+}
+
+.about-me-para {
+  font-family: 'Inter', sans-serif;
+  color: #f4f5f7;
+  font-size: 1rem;
+}
+
+.about-me-btn {
+  height: 48px;
+  width: auto;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+
+.line-1 {
+  border: 1px solid #fff;
+  width: 327px;
+  height: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.about-me-common {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+}
+
+.about-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-my-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-list {
+  height: 48px;
+  width: auto;
+  font-size: 22px;
 }
