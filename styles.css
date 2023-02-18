@@ -38,7 +38,6 @@ body {
 .main {
   height: 36.875rem;
   left: 0;
-  
 }
 
 .main-header {
@@ -70,6 +69,7 @@ body {
 li {
   list-style: none;
 }
+
 /* .prev-works, .experience-container, .about-container, .about-me {
   padding: 7.5rem 1.5rem 7.5rem 1.5rem;
 } */
@@ -77,15 +77,15 @@ li {
 .experience-title {
   margin: auto;
   font-family: 'Crete Round', serif;
-  color: #1C1A19;
+  color: #1c1a19;
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .line {
   border: 1px solid #212121;
   width: 327px;
-  height: 0px;
+  height: 0;
   margin-left: 0;
   margin-bottom: 20px;
 }
@@ -94,6 +94,7 @@ li {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .project-1 {
   display: flex;
   flex-direction: column;
@@ -105,9 +106,9 @@ li {
   height: 237px;
 }
 
-.project-1-title{
+.project-1-title {
   font-family: 'Crete Round', serif;
-  color: #091E42;
+  color: #091e42;
   font-size: 32px;
 }
 
@@ -116,7 +117,7 @@ li {
   font-size: 1rem;
 }
 
-.project-1-list  {
+.project-1-list {
   display: flex;
   height: 40px;
   gap: 12px;
@@ -125,11 +126,10 @@ li {
 .project-1-btn {
   height: 48px;
   width: 124px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
-  color: #FFFFFF;
-  
+  color: #fff;
 }
 
 .common-components {
@@ -139,16 +139,14 @@ li {
 }
 
 .project-x {
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   background-image: linear-gradient(#262626);
-   background: url("../assets/images/Mask Group.svg") 50% 50% no-repeat;
-   font-family: 'Inter', sans-serif;
-   color:#fff;
-   height: 386px;
-   width: 327px;
-   
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: url("../assets/images/Mask Group.svg") 50% 50% no-repeat;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  height: 386px;
+  width: 327px;
 }
 
 .project-x-title {
@@ -165,6 +163,7 @@ li {
   display: flex;
   gap: 12px;
 }
+
 .proj-list {
   height: 40px;
   width: auto;
@@ -174,7 +173,7 @@ li {
 .project-btn {
   height: 48px;
   width: auto;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
@@ -182,7 +181,7 @@ li {
 }
 
 .about-me {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   width: 375px;
   height: auto;
 }
@@ -207,21 +206,20 @@ li {
   height: 79px;
   font-family: 'Crete Round', serif;
   font-size: 72px;
-  color: #FF6B00;
+  color: #ff6b00;
   margin-top: 120px;
 }
 
 .about-me-para {
   font-family: 'Inter', sans-serif;
-  color: #F4F5F7;
+  color: #f4f5f7;
   font-size: 1rem;
-
 }
 
 .about-me-btn {
   height: 48px;
   width: auto;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
@@ -231,14 +229,14 @@ li {
 .line-1 {
   border: 1px solid #fff;
   width: 327px;
-  height: 0px;
+  height: 0;
   margin-left: 0;
   margin-bottom: 20px;
 }
 
 .about-me-common {
   font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,5 +268,3 @@ li {
   width: auto;
   font-size: 22px;
 }
-
-  
