@@ -1,8 +1,8 @@
 body {
   box-sizing: border-box;
   margin-left: 24px;
-  display: grid;
-  grid-template-columns: (1, 386px);
+  /* display: grid;
+  grid-template-columns: (auto, minmax(386px)); */
 }
 
 .header {
@@ -70,9 +70,9 @@ li {
   list-style: none;
 }
 
-.prev-works, .experience-container, .about-container, .about-me {
+/* .prev-works, .experience-container, .about-container, .about-me {
   padding: 7.5rem 1.5rem 7.5rem 1.5rem;
-}
+} */
 
 .experience-title {
   margin: auto;
@@ -182,7 +182,7 @@ li {
 
 .about-me {
   background-color: #1c1a19;
-  width: 375px;
+  width: min(375px);
   height: auto;
 }
 
