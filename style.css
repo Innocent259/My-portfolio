@@ -13,7 +13,7 @@
   display: flex;
   background-color: #3c3a39;
   height: 48px;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   align-items: center;
@@ -44,7 +44,7 @@
   flex-direction: column;
   gap: 12px;
   justify-content: space-between;
-  padding: 72px 24px 120px 24px ;
+  padding: 72px 24px 120px 24px;
 }
 
 .main-header {
