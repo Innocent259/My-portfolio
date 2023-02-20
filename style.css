@@ -1,49 +1,57 @@
-body {
+.container {
   box-sizing: border-box;
-  margin-left: 24px;
-  display: grid;
-  grid-template-columns: (1, 386px);
+  margin: 0;
+  min-width: 375px;
 }
 
-.header {
-  background-color: #3c3a39;
+.first-section {
+  height: 830px;
+  background: #1c1a19 url("../images/Illustration.svg") bottom -11% right no-repeat;
 }
 
 .nav {
   display: flex;
-  height: 3rem;
+  background-color: #3c3a39;
+  height: 48px;
   justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   align-items: center;
-  padding: 1.5rem;
+  width: 100%;
 }
 
 .nav-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
-  font-size: 1rem;
-  padding-left: 0.75rem;
-  padding-bottom: 0.625rem;
+  font-size: 18px;
+  height: 24px;
 }
 
 .nav-menu {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 40px;
+  height: 40px;
+  padding-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .hero {
-  background: #1c1a19 url("../images/Illustration.svg") 100% 100% no-repeat;
+  margin: 0;
 }
 
 .main {
-  height: 36.875rem;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 72px 24px 120px 24px;
 }
 
 .main-header {
   font-family: 'Crete Round', serif;
   font-size: 3.5rem;
   color: #ff6b00;
+  margin: 0;
 }
 
 .sub-header {
@@ -66,15 +74,18 @@ body {
   padding-left: 0;
 }
 
+.social-link {
+  height: 40px;
+  width: 40px;
+}
+
 li {
   list-style: none;
 }
 
-.prev-works,
-.experience-container,
-.about-container,
-.about-me {
-  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
+.prev-works {
+  height: 216rem;
+  min-width: 375px;
 }
 
 .experience-title {
@@ -185,7 +196,7 @@ li {
 
 .about-me {
   background-color: #1c1a19;
-  width: 375px;
+  width: min(375px);
   height: auto;
 }
 
@@ -197,7 +208,7 @@ li {
 }
 
 .about-me-1 {
-  background: url("../images/illustration-about-me.svg") bottom -30px right no-repeat;
+  background: url("../images/Illustration.svg") bottom -130px right  no-repeat;
   height: 563px;
   display: flex;
   flex-direction: column;
