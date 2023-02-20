@@ -1,48 +1,57 @@
-body {
+.container {
   box-sizing: border-box;
   margin: 0;
+  min-width: 375px;
 }
 
-.header {
-  background-color: #3c3a39;
+.first-section {
+  height: 830px;
+  background: #1c1a19 url("../images/Illustration.svg") bottom -11% right no-repeat;
 }
 
 .nav {
   display: flex;
-  height: 3rem;
+  background-color: #3c3a39;
+  height: 48px;
   justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   align-items: center;
-  padding: 1.5rem;
+  width: 100%;
 }
 
 .nav-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
-  font-size: 1rem;
-  padding-left: 0.75rem;
-  padding-bottom: 0.625rem;
+  font-size: 18px;
+  height: 24px;
 }
 
 .nav-menu {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 40px;
+  height: 40px;
+  padding-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .hero {
-  background: #1c1a19 url("images/Illustration.svg") 100% 100% no-repeat;
+  margin: 0;
 }
 
 .main {
-  height: 36.875rem;
-  left: 0;
-  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 72px 24px 120px 24px;
 }
 
 .main-header {
   font-family: 'Crete Round', serif;
   font-size: 3.5rem;
   color: #ff6b00;
+  margin: 0;
 }
 
 .sub-header {
@@ -54,7 +63,7 @@ body {
 
 .main-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
@@ -67,4 +76,218 @@ body {
 
 li {
   list-style: none;
+}
+
+.prev-works {
+  height: 216rem;
+  min-width: 375px;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(375px));
+  grid-auto-rows: auto;
+  grid-gap: 24px;
+  padding: 120px 24px 120px 24px;
+}
+
+.title-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 107px;
+  width: 327px;
+  margin: auto;
+}
+
+.experience-title {
+  font-family: 'Crete Round', serif;
+  color: #1c1a19;
+  font-size: 40px;
+}
+
+.line {
+  border: 1px solid #212121;
+  width: 327px;
+  height: 0;
+}
+
+/* .project-1-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-1-img {
+  padding-top: 80px;
+}
+
+.project-1-title {
+  font-family: 'Crete Round', serif;
+  color: #091e42;
+  font-size: 32px;
+}
+
+.project-1-para {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+.project-1-list {
+  display: flex;
+  height: 40px;
+  gap: 12px;
+}
+
+.project-1-btn {
+  height: 48px;
+  width: 124px;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+/* .common-components {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
+.project-x {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: url("../images/Mask Group.svg") 50% 50% /cover no-repeat;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.project-x-title {
+  font-size: 2rem;
+  padding-left: 24px;
+}
+
+.project-x-para {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.project-x-list {
+  display: flex;
+  gap: 12px;
+}
+
+.proj-list {
+  height: 40px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.project-btn {
+  height: 48px;
+  width: auto;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+
+.about-me {
+  background-color: #1c1a19;
+  width: min(375px);
+  height: auto;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  grid-gap: 120px;
+}
+
+.about-me-1 {
+  background: url("../images/Illustration.svg") bottom -130px right  no-repeat;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-me-title {
+  height: 79px;
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-top: 120px;
+}
+
+.about-me-para {
+  font-family: 'Inter', sans-serif;
+  color: #f4f5f7;
+  font-size: 1rem;
+}
+
+.about-me-btn {
+  height: 48px;
+  width: auto;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+
+.line-1 {
+  border: 1px solid #fff;
+  width: 327px;
+  height: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.about-me-common {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+}
+
+.about-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-my-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-list {
+  height: 48px;
+  width: auto;
+  font-size: 22px;
 }
