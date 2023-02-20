@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   margin-left: 24px;
+
   /* display: grid;
   grid-template-columns: (auto, minmax(386px)); */
 }
