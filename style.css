@@ -78,6 +78,10 @@ li {
   list-style: none;
 }
 
+.button {
+  border: none;
+}
+
 .prev-works {
   height: 216rem;
   min-width: 375px;
@@ -219,24 +223,25 @@ li {
 .about-me {
   background-color: #1c1a19;
   height: auto;
-  padding: 120px 24px 120px 24px;
+  padding: 0 24px 120px 24px;
 }
 
 .about-container {
+  background: url("../images/Frame.svg") bottom right  no-repeat;
+  background-position-y: 25%;
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
+  justify-content: center;
   padding: 120px 24px 120px 24px;
   grid-gap: 24px;
   align-items: center;
 }
 
 .about-me-1 {
-  background: url("../images/Frame.svg") bottom right  no-repeat;
-  height: 563px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  margin-bottom: 210px;
 }
 
 .about-me-title {
@@ -244,7 +249,8 @@ li {
   font-family: 'Crete Round', serif;
   font-size: 72px;
   color: #ff6b00;
-  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.37px;
 }
 
 .about-me-para {
@@ -253,6 +259,7 @@ li {
   font-weight: 400;
   font-size: 1rem;
   height: 148px;
+  line-height: 24px;
 }
 
 .about-me-btn {
@@ -263,7 +270,7 @@ li {
   font-weight: bold;
   font-size: 17px;
   color: #fff;
-  margin-left: 0;
+  margin-top: 12px;
 }
 
 .line-container {
@@ -295,8 +302,10 @@ li {
 }
 
 .about-title {
-  font-family: 'Crete Round', serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 32px;
+  line-height: 44px;
 }
 
 .about-my-list {
@@ -317,11 +326,6 @@ li {
   background-color: #fff5e1;
   color: #f55800;
 }
-
-/* .button:pressed {
-  background-color: #e05304;
-  color: #f4f1f0;
-} */
 
 .button:disabled {
   background-color: #f4f1f0;
