@@ -81,6 +81,7 @@ li {
 .prev-works {
   height: 216rem;
   min-width: 375px;
+  background-color: rgba(255, 255, 255, 0.24);
 }
 
 .experience-container {
@@ -112,18 +113,12 @@ li {
   height: 0;
 }
 
-/* .project-1-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
 .project-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  gap: 12px;
 }
 
 .project-1-img {
@@ -139,12 +134,27 @@ li {
 .project-1-para {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
+  color: #091e42;
 }
 
 .project-1-list {
   display: flex;
+  margin-left: 0;
+  gap: 24px;
+  padding: 10px 12px 10px 12px;
+  align-items: center;
   height: 40px;
-  gap: 12px;
+}
+
+.list-1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+  font-size: 15px;
+  width: auto;
+  border: 1px solid #8993a4;
+  height: 20px;
+  color: #091e42;
+  padding: 10px 12px 10px 12px;
 }
 
 .project-1-btn {
@@ -156,23 +166,18 @@ li {
   color: #fff;
 }
 
-/* .common-components {
-  display: grid;
-  grid-template-columns: 1fr;
-} */
-
 .project-x {
   display: flex;
   flex-direction: column;
   gap: 12px;
   background: url("../images/Mask Group.svg") 50% 50% /cover no-repeat;
   font-family: 'Inter', sans-serif;
-  color: #fff;
 }
 
 .project-x-title {
   font-size: 2rem;
   padding-left: 24px;
+  color: #fff;
 }
 
 .project-x-para {
@@ -180,17 +185,25 @@ li {
   font-size: 1rem;
   padding-left: 24px;
   padding-right: 24px;
+  color: #fff;
 }
 
 .project-x-list {
   display: flex;
-  gap: 12px;
+  gap: 24px;
+  height: 40px;
+  align-items: center;
 }
 
 .proj-list {
-  height: 40px;
+  height: 20px;
   width: auto;
   background-color: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: medium;
+  color: #fff;
 }
 
 .project-btn {
@@ -205,23 +218,24 @@ li {
 
 .about-me {
   background-color: #1c1a19;
-  width: min(375px);
   height: auto;
+  padding: 120px 24px 120px 24px;
 }
 
 .about-container {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
-  grid-gap: 120px;
+  padding: 120px 24px 120px 24px;
+  grid-gap: 24px;
+  align-items: center;
 }
 
 .about-me-1 {
-  background: url("../images/Illustration.svg") bottom -130px right  no-repeat;
+  background: url("../images/Frame.svg") bottom right  no-repeat;
   height: 563px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
 }
 
@@ -230,64 +244,83 @@ li {
   font-family: 'Crete Round', serif;
   font-size: 72px;
   color: #ff6b00;
-  margin-top: 120px;
+  margin-top: 0;
 }
 
 .about-me-para {
   font-family: 'Inter', sans-serif;
   color: #f4f5f7;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .about-me-btn {
   height: 48px;
-  width: auto;
+  width: 161px;
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   color: #fff;
+  margin-left: 0;
+}
+
+.line-container {
+  height: 17px;
+  width: 327px;
+  margin: auto;
 }
 
 .line-1 {
   border: 1px solid #fff;
-  width: 327px;
   height: 0;
-  margin-left: 0;
-  margin-bottom: 20px;
 }
 
 .about-me-common {
   font-family: 'Inter', sans-serif;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 120px 24px;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: 1;
+  grid-auto-rows: auto;
+  margin: auto;
 }
 
 .about-start {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 12px;
-  gap: 12px;
+  gap: 24px;
 }
 
 .about-title {
+  font-family: 'Crete Round', serif;
   font-size: 32px;
-  font-weight: bold;
 }
 
 .about-my-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 216px;
+  margin: auto;
 }
 
 .about-list {
   height: 48px;
   width: auto;
   font-size: 22px;
+}
+
+.button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+/* .button:pressed {
+  background-color: #e05304;
+  color: #f4f1f0;
+} */
+
+.button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
