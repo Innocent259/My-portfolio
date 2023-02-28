@@ -330,3 +330,97 @@ li {
   color: #f55800;
 }
 
+.form {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(375px));
+  grid-template-rows: auto;
+  padding: 120px 24px 120px 24px;
+  justify-content: center;
+}
+
+.text-container {
+  min-width: 327px;
+  height: 216px;
+  display: flex;
+  align-items: center;
+}
+
+.form-text {
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: #172B4D;
+  line-height: 44px;
+  text-align: center;
+  
+}
+
+.form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  height: 330px;
+}
+
+.input {
+  height: 48px;
+}
+
+.input-x {
+  height: 18px;
+  width: 295px;
+  border: none;
+  color:#979493;
+  padding: 20px;
+}
+
+.textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  height: 114px;
+  min-width: 303px;
+  background-color: #FBF8F7;
+  margin-top: 24px;
+}
+
+.line-y {
+  border: 1px solid #DBD8D7;
+  width: 327px;
+  height: 0;
+}
+
+.button-submit {
+  height: 48px;
+  width: 131px;
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.line-z {
+  width: 134px;
+  border: 5px solid #0D151E;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+}
+.social-media-footer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-left: 0;
+}
+
+.github-1{
+  color: #091e42;
+}
