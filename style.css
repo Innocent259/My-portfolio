@@ -18,6 +18,7 @@
   padding-right: 1.5rem;
   align-items: center;
   width: 100%;
+  position: fixed;
 }
 
 .nav-title {
@@ -331,20 +332,22 @@ li {
 }
 
 .form {
+  height: 844px;
   background-color: #fff;
-  display: grid;
-  grid-template-columns: repeat(1, minmax(375px));
-  grid-template-rows: auto;
+  display: flex;
+  min-width: 375px;
+  flex-direction: column;
+  gap: 58px;
   padding: 120px 24px 120px 24px;
   justify-content: center;
 }
 
-.text-container {
+/* .text-container {
   min-width: 327px;
   height: 216px;
   display: flex;
   align-items: center;
-}
+} */
 
 .form-text {
   font-family: 'Inter', sans-serif;
@@ -360,6 +363,7 @@ li {
   gap: 24px;
   align-items: center;
   height: 330px;
+  margin-top: 0;
 }
 
 .input {
@@ -371,7 +375,7 @@ li {
   width: 295px;
   border: none;
   color: #979493;
-  padding: 20px;
+  padding: 16px;
 }
 
 .textarea {
@@ -398,6 +402,14 @@ li {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.line-f {
+  border: 1px solid #dfe1e6;
+  width: 100%;
+  padding-bottom: 0;
 }
 
 .line-z {
@@ -411,6 +423,7 @@ li {
   justify-content: center;
   background-color: #fff;
   align-items: center;
+  height: 72px;
 }
 
 .social-media-footer {
@@ -418,8 +431,4 @@ li {
   gap: 0.5rem;
   align-items: center;
   padding-left: 0;
-}
-
-.github-1 {
-  color: #091e42;
 }
