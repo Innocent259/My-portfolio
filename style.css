@@ -347,13 +347,11 @@ li {
 }
 
 .form-text {
-  
   font-family: 'Inter', sans-serif;
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 44px;
   text-align: center;
-  
 }
 
 .form-form {
@@ -372,7 +370,7 @@ li {
   height: 18px;
   width: 295px;
   border: none;
-  color:#979493;
+  color: #979493;
   padding: 20px;
 }
 
@@ -381,12 +379,12 @@ li {
   font-size: 15px;
   height: 114px;
   min-width: 303px;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   margin-top: 24px;
 }
 
 .line-y {
-  border: 1px solid #DBD8D7;
+  border: 1px solid #dbd8d7;
   width: 327px;
   height: 0;
 }
@@ -394,7 +392,7 @@ li {
 .button-submit {
   height: 48px;
   width: 131px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -404,7 +402,7 @@ li {
 
 .line-z {
   width: 134px;
-  border: 5px solid #0D151E;
+  border: 5px solid #0d151e;
 }
 
 .footer {
@@ -414,6 +412,7 @@ li {
   background-color: #fff;
   align-items: center;
 }
+
 .social-media-footer {
   display: flex;
   gap: 0.5rem;
@@ -421,6 +420,6 @@ li {
   padding-left: 0;
 }
 
-.github-1{
+.github-1 {
   color: #091e42;
 }
