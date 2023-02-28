@@ -72,6 +72,12 @@ To run the project, execute the following command:
 - GitHub: [@githubhandle](https://github.com/Innocent259)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/innocent-ndahimana-b4b870245/)
 
+ **Author2**
+
+- GitHub: [@tshepo45](https://github.com/githubhandle)
+- Twitter: [@tshepo45](https://twitter.com/twitterhandle)
+- LinkedIn: [tshepo45](https://linkedin.com/in/linkedinhandle)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
