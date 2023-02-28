@@ -78,6 +78,12 @@ To run the project, execute the following command:
 - Twitter: [@tshepo45](https://twitter.com/twitterhandle)
 - LinkedIn: [tshepo45](https://linkedin.com/in/linkedinhandle)
 
+**Author3**
+
+- GitHub: [@
+arnoldnekemiah](https://github.com/arnoldnekemiah)
+- LinkedIn: [tshepo45](https://www.linkedin.com/in/arnold-nekemiah-b050621ab/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
