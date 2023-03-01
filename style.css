@@ -435,11 +435,19 @@ textarea::placeholder {
   background-color: #fff;
   align-items: center;
   height: 72px;
+  padding-bottom: 8px;
 }
 
 .social-media-footer {
   display: flex;
-  gap: 0.5rem;
+  justify-content: center;
   align-items: center;
-  padding-left: 0;
+  height: 40px;
+  width: 200px;
+}
+
+.icon-size {
+  height: 24px;
+  width: 24px;
+  padding: 16px;
 }
