@@ -423,7 +423,7 @@ textarea::placeholder {
 }
 
 .line-z {
-  width: 100px;
+  width: 134px;
   border: 5px solid #0d151e;
   border-radius: 10px;
 }
@@ -445,7 +445,7 @@ textarea::placeholder {
   align-items: center;
   height: 40px;
   width: 200px;
-  
+  padding: 0%;
 }
 
 .icon-size {
