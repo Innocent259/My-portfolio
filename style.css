@@ -423,7 +423,7 @@ textarea::placeholder {
 }
 
 .line-z {
-  width: 134px;
+  width: 100px;
   border: 5px solid #0d151e;
   border-radius: 10px;
 }
@@ -435,6 +435,7 @@ textarea::placeholder {
   background-color: #fff;
   align-items: center;
   height: 72px;
+  min-width: 375px;
   padding-bottom: 8px;
 }
 
@@ -444,10 +445,11 @@ textarea::placeholder {
   align-items: center;
   height: 40px;
   width: 200px;
+  
 }
 
 .icon-size {
   height: 24px;
   width: 24px;
-  padding: 16px;
+  padding: 8px;
 }
