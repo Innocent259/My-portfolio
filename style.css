@@ -349,7 +349,6 @@ li {
   width: 327px;
   height: 216px;
   margin: auto;
-  text-align: center;
 }
 
 .form-form {
@@ -379,7 +378,7 @@ li {
   padding-right: 16px;
 }
 
-input::placeholder{
+input::placeholder {
   color: #979493;
 }
 
@@ -395,7 +394,7 @@ input::placeholder{
 }
 
 textarea::placeholder {
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .line-y {
