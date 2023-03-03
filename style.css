@@ -1,12 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   box-sizing: border-box;
   margin: 0;
-  min-width: 375px;
 }
 
 .first-section {
   height: 830px;
-  background: #1c1a19 url("../images/Illustration.svg") bottom -11% right no-repeat;
+  min-width: 375px;
+  background: url("../images/Illustration.svg") bottom -11% right no-repeat;
+  background-color: #1c1a19;
 }
 
 .nav {
@@ -27,12 +32,17 @@
   color: #fff;
   font-size: 18px;
   height: 24px;
+  text-decoration-line: none;
 }
 
 .nav-menu {
   width: 40px;
   height: 40px;
   padding-right: 36px;
+}
+
+.links {
+  display: none;
 }
 
 .hero {
@@ -48,10 +58,13 @@
 }
 
 .main-header {
-  font-family: 'Crete Round', serif;
-  font-size: 3.5rem;
+  font-family: 'Crete Round';
   color: #ff6b00;
-  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
 }
 
 .sub-header {
@@ -69,9 +82,10 @@
 
 .social-media {
   display: flex;
-  gap: 0.5rem;
   align-items: center;
   padding-left: 0;
+  height: 40px;
+  width: 200px;
 }
 
 li {
@@ -101,7 +115,7 @@ li {
   flex-direction: column;
   justify-content: center;
   height: 107px;
-  width: 327px;
+  min-width: 327px;
   margin: auto;
 }
 
@@ -221,6 +235,12 @@ li {
   color: #fff;
 }
 
+.frame-img {
+  display: none;
+}
+.frame-img-1 {
+  display: none;
+}
 .about-me {
   background-color: #1c1a19;
   height: auto;
@@ -453,3 +473,173 @@ textarea::placeholder {
   width: 24px;
   padding: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  /* body {
+    width: 100%;
+    height: 100vh;
+  } */
+  .nav {
+    height: 72px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-title {
+    margin-left: 143px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-nav {
+    display: flex;
+    padding-left: 300px;
+    justify-content: center;
+  }
+
+  .links {
+    margin-top: 26px;
+    display: flex;
+    margin-right: 151px;
+    gap: 24px;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  /* background: url(./images/Illustration-header.svg) right no-repeat; */
+  height: 870px; 
+  background-size: 55% 93%;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 10fr 10fr;
+  grid-row-gap: 130px;
+  grid-template-rows: auto;
+  grid-template-areas: "sidebar content";
+}
+.desktop-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 192px 0 192px 0;
+  margin-left: 143px;
+  margin-bottom: 56px;
+  
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+}  
+
+/* .main-header {
+  font-family: 'Crete Round';
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 82px;
+  text-align: left;
+  height: 160px;
+  margin: 50px 0;
+  padding: 0;
+
+} */
+
+.sub-header {
+  height: 24px;
+}
+
+.main-paragraph {
+  height: 123px;
+}
+
+.prev-works {
+
+}
+
+.title-line {
+  height: 52px;
+  margin: 0 35.5px 0 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.experience-title {
+  width: 315px;
+  height: 52px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.experience-container {
+  padding: 130px 118px 130px 118px;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+/* .project-1-img {
+  margin: 0;
+  flex-grow: 1;
+} */
+
+.common-components {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+  grid-gap: 12px;
+  margin-top: 12px;
+}
+
+.about-me-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+/* .desktop {
+} */
+.about-me-para {
+  max-width: 566px;
+}
+.frame-img {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.about-me-common {
+  display: flex;
+  flex-direction: row;
+  gap: 152px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+/* .form-form {
+  float: right;
+} */
+} 
