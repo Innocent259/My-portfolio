@@ -1,14 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-.container {
+* {
   box-sizing: border-box;
-  margin: 0;
+}
+
+body {
+  width: 137%;
 }
 
 .first-section {
-  height: 830px;
   min-width: 375px;
   background: url("../images/Illustration.svg") bottom -11% right no-repeat;
   background-color: #1c1a19;
@@ -38,7 +36,6 @@ body {
 .nav-menu {
   width: 40px;
   height: 40px;
-  padding-right: 36px;
 }
 
 .links {
@@ -58,13 +55,14 @@ body {
 }
 
 .main-header {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   color: #ff6b00;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
+  margin: 0;
 }
 
 .sub-header {
@@ -85,7 +83,7 @@ body {
   align-items: center;
   padding-left: 0;
   height: 40px;
-  width: 200px;
+  min-width: 200px;
 }
 
 li {
@@ -147,6 +145,7 @@ li {
   font-family: 'Crete Round', serif;
   color: #091e42;
   font-size: 32px;
+  margin: 0;
 }
 
 .project-1-para {
@@ -166,13 +165,11 @@ li {
 
 .list-1 {
   font-family: 'Inter', sans-serif;
-  font-weight: medium;
   font-size: 15px;
   width: auto;
   border: 1px solid #8993a4;
   height: 20px;
   color: #091e42;
-  padding: 10px 12px 10px 12px;
 }
 
 .project-1-btn {
@@ -218,10 +215,8 @@ li {
   height: 20px;
   width: auto;
   background-color: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px 10px 12px;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-weight: medium;
   color: #fff;
 }
 
@@ -238,9 +233,11 @@ li {
 .frame-img {
   display: none;
 }
-.frame-img-1 {
+
+.frame-img-2 {
   display: none;
 }
+
 .about-me {
   background-color: #1c1a19;
   height: auto;
@@ -295,7 +292,7 @@ li {
 
 .line-container {
   height: 17px;
-  width: 327px;
+  min-width: 327px;
   margin: auto;
 }
 
@@ -469,19 +466,18 @@ textarea::placeholder {
 }
 
 .icon-size {
-  height: 24px;
-  width: 24px;
-  padding: 8px;
+  width: 70%;
+  height: 70%;
 }
 
 @media screen and (min-width: 768px) {
-  /* body {
-    width: 100%;
-    height: 100vh;
-  } */
+  body {
+    width: fit-content;
+  }
+
   .nav {
     height: 72px;
-    padding: 0 20px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -506,140 +502,168 @@ textarea::placeholder {
     display: flex;
     margin-right: 151px;
     gap: 24px;
+  }
+
+  .links li {
+    list-style: none;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .first-section {
+    background-image: none;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 10fr 8fr;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-areas: "sidebar content";
+  }
+
+  .frame-img-2 {
+    display: block;
+  }
+
+  .desktop-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 56px;
+    min-width: 566px;
+    margin-top: 192px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    grid-area: sidebar;
+    margin-top: 147%;
+  }
+
+  .prev-works {
+    height: fit-content;
+  }
+
+  .sub-header {
+    height: 24px;
+  }
+
+  .main-paragraph {
+    height: 123px;
+  }
+
+  .title-line {
+    height: 52px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .line-4 {
+    min-width: 1003px;
+  }
+
+  .experience-title {
+    height: 52px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .project-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .project-1-img {
+    margin-top: 94px;
+    padding-top: 0;
+    width: 78%;
+    height: 100vh;
+  }
+
+  .proj1 {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 10%;
+    justify-content: space-between;
+  }
+
+  .common-components {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    grid-gap: 12px;
+    margin-top: 12px;
+  }
+
+  .line-1 {
+    min-width: 1156px;
+    margin: auto;
+  }
+
+  .about-me {
+    padding: 0%;
+  }
+
+  .about-container {
+    background: none;
+  }
+
+  .about-me-1 {
+    background: url(./images/about-frame.svg) top 46% right -12% no-repeat;
+    background-size: auto;
+  }
+
+  .desktop {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-top: 0;
+    width: 40%;
+    height: 45%;
+    margin-right: 700px;
+  }
+
+  .about-me-para {
+    max-width: 566px;
+  }
+
+  .about-me-common {
+    display: flex;
+    flex-direction: row;
+    gap: 152px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .form-text {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .form-form {
+    width: 60%;
+  }
+
+  .input {
+    padding-left: 0;
+  }
 }
-
-.links li {
-  list-style: none;
-}
-
-.links a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.main {
-  /* background: url(./images/Illustration-header.svg) right no-repeat; */
-  height: 870px; 
-  background-size: 55% 93%;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: 1fr 10fr 10fr;
-  grid-row-gap: 130px;
-  grid-template-rows: auto;
-  grid-template-areas: "sidebar content";
-}
-.desktop-main {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 192px 0 192px 0;
-  margin-left: 143px;
-  margin-bottom: 56px;
-  
-}
-.social-media {
-  display: flex;
-  flex-direction: column;
-  grid-area: sidebar;
-}  
-
-/* .main-header {
-  font-family: 'Crete Round';
-  font-size: 72px;
-  font-weight: 400;
-  line-height: 82px;
-  text-align: left;
-  height: 160px;
-  margin: 50px 0;
-  padding: 0;
-
-} */
-
-.sub-header {
-  height: 24px;
-}
-
-.main-paragraph {
-  height: 123px;
-}
-
-.prev-works {
-
-}
-
-.title-line {
-  height: 52px;
-  margin: 0 35.5px 0 35px;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.experience-title {
-  width: 315px;
-  height: 52px;
-  font-family: 'Crete Round';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-.experience-container {
-  padding: 130px 118px 130px 118px;
-}
-
-.project-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-}
-
-/* .project-1-img {
-  margin: 0;
-  flex-grow: 1;
-} */
-
-.common-components {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: auto;
-  grid-gap: 12px;
-  margin-top: 12px;
-}
-
-.about-me-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 130px;
-}
-
-/* .desktop {
-} */
-.about-me-para {
-  max-width: 566px;
-}
-.frame-img {
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.about-me-common {
-  display: flex;
-  flex-direction: row;
-  gap: 152px;
-}
-.form {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-}
-
-/* .form-form {
-  float: right;
-} */
-} 
