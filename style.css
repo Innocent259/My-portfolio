@@ -1,17 +1,18 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-  height: 100%;
-  margin: 0;
-  width: fit-content;
+  height: auto;
+  width: 100%;
 }
 
 .first-section {
   min-width: 375px;
   background: url("../images/Illustration.svg") bottom -11% right no-repeat;
   background-color: #1c1a19;
+  width: 100%;
 }
 
 .nav {
@@ -96,8 +97,8 @@ li {
 
 .prev-works {
   height: 216rem;
-  min-width: 375px;
   background-color: rgba(255, 255, 255, 0.24);
+  width: 100%;
 }
 
 .experience-container {
@@ -468,7 +469,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
   body {
-    width: fit-content;
+    width: 100%;
   }
 
   .nav {
@@ -514,18 +515,20 @@ textarea::placeholder {
 
   .first-section {
     background-image: none;
+    background-image: url(./images/Illustration-header.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44% 93%;
   }
 
   .main {
+    margin-top: 0;
     display: grid;
-    grid-template-columns: 1fr 10fr 8fr;
-    grid-row-gap: 24px;
+    grid-template-columns: 10% 80%;
     grid-template-rows: auto;
     grid-template-areas: "sidebar content";
-  }
-
-  .frame-img-2 {
-    display: block;
+    width: 70%;
+    grid-column-gap: 20px;
   }
 
   .desktop-main {
@@ -533,19 +536,20 @@ textarea::placeholder {
     flex-direction: column;
     gap: 24px;
     margin-bottom: 56px;
-    min-width: 566px;
-    margin-top: 192px;
+    width: 97%;
+    margin-top: 0%;
   }
 
   .social-media {
     display: flex;
     flex-direction: column;
     grid-area: sidebar;
-    margin-top: 147%;
+    margin-top: 99%;
+    padding-right: 0%;
   }
 
   .prev-works {
-    height: fit-content;
+    height: 100%;
     padding: 130px 118px;
   }
 
@@ -567,14 +571,14 @@ textarea::placeholder {
     gap: 24px;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 
   .line-4 {
-    min-width: 861px;
+    width: 60%;
   }
 
   .experience-title {
-    height: 52px;
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
@@ -589,9 +593,7 @@ textarea::placeholder {
   }
 
   .project-1-img {
-    margin-top: 94px;
-    padding-top: 0;
-    width: 78%;
+    width: 60%;
     height: 100vh;
   }
 
