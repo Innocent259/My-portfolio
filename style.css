@@ -326,7 +326,7 @@ li {
 .button:hover {
   background-color: #fff5e1;
   color: #f55800;
-  tranform-rotate: 0.2s;
+  translate: rotate(0.2s);
   translate: scale(0.4s);
 }
 
