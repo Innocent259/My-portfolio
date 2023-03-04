@@ -21,7 +21,6 @@ body {
   width: 100%;
   padding-left: 24px;
   padding-right: 36px;
-  position: fixed;
 }
 
 .nav-title {
@@ -372,7 +371,6 @@ li {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: center;
   height: 330px;
   margin: auto;
   margin-top: 0;
@@ -384,7 +382,6 @@ li {
   gap: 14px;
   height: 48px;
   width: 327px;
-  margin: 0;
 }
 
 .input-x {
@@ -416,7 +413,6 @@ textarea::placeholder {
 
 .line-y {
   border: 1px solid #dbd8d7;
-  width: 100%;
   height: 0;
 }
 
@@ -430,7 +426,7 @@ textarea::placeholder {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin: auto;
 }
 
 .line-f {
@@ -481,6 +477,7 @@ textarea::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
   }
 
   .nav-title {
@@ -506,6 +503,7 @@ textarea::placeholder {
 
   .links li {
     list-style: none;
+    text-align: center;
   }
 
   .links a {
@@ -550,7 +548,14 @@ textarea::placeholder {
   }
 
   .sub-header {
-    height: 24px;
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 10s;
+    transition-delay: 0.5s;
+  }
+
+  .sub-header:hover {
+    font-size: 36px;
   }
 
   .main-paragraph {
@@ -652,6 +657,7 @@ textarea::placeholder {
     flex-direction: row;
     gap: 12px;
     align-items: center;
+    position: relative;
   }
 
   .form-text {
@@ -664,6 +670,15 @@ textarea::placeholder {
   }
 
   .input {
-    padding-left: 0;
+    width: 50%;
+  }
+
+  .line-y {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .button-submit {
+    margin-left: 0;
   }
 }
