@@ -545,6 +545,7 @@ textarea::placeholder {
 
   .prev-works {
     height: fit-content;
+    padding: 130px 118px;
   }
 
   .sub-header {
@@ -565,7 +566,6 @@ textarea::placeholder {
   .title-line {
     height: 52px;
     display: flex;
-    margin-left: 100px;
     flex-direction: row;
     gap: 24px;
     align-items: center;
@@ -573,7 +573,7 @@ textarea::placeholder {
   }
 
   .line-4 {
-    min-width: 1003px;
+    min-width: 861px;
   }
 
   .experience-title {
@@ -604,7 +604,6 @@ textarea::placeholder {
     flex-direction: column;
     gap: 12px;
     padding-bottom: 10%;
-    justify-content: space-between;
   }
 
   .common-components {
@@ -658,6 +657,7 @@ textarea::placeholder {
     gap: 12px;
     align-items: center;
     position: relative;
+    padding: 130px 118px;
   }
 
   .form-text {
