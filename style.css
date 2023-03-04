@@ -408,10 +408,6 @@ textarea:focus {
   border: none;
 }
 
-textarea::placeholder {
-  color: #3c3a39;
-}
-
 .line-y {
   border: 1px solid #dbd8d7;
   height: 0;
@@ -553,7 +549,7 @@ textarea::placeholder {
     padding: 130px 118px;
   }
 
-  .sub-header {
+  .button .sub-header {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #fff5e1;
@@ -603,6 +599,29 @@ textarea::placeholder {
     gap: 12px;
     height: auto;
     padding-top: 7%;
+  }
+
+  .hide-me {
+    display: none;
+  }
+
+  .proj-list {
+    margin-bottom: 0;
+  }
+
+  .desk-proj1,
+  .desk-proj4 {
+    background: url("../images/Mask Group.svg") 50% 50% /cover no-repeat;
+  }
+
+  .desk-proj2,
+  .desk-proj5 {
+    background: url("../images/2and5.png") 50% 50% /cover no-repeat;
+  }
+
+  .desk-proj3,
+  .desk-proj6 {
+    background: url("../images/3and6.png") 50% 50% /cover no-repeat;
   }
 
   .common-components {
