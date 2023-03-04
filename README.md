@@ -11,6 +11,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -38,9 +39,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Previous work experience]**
-- **[Contact form]**
-- **[Accessibility and Compatibility]**
+- **[The header section]**
+- **[The homepage of Portifolio]**
+- **[The section showing recent projects]**
+- **[The about me section]**
+- **[The contact form]**
+- **[The footer section]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +108,14 @@ Click on bottom menu icon Go Live to see the project.
 - GitHub: [@arnoldnekemiah](https://github.com/arnoldnekemiah)
 - LinkedIn: [Arnold Nekemiah](https://www.linkedin.com/in/arnold-nekemiah-b050621ab/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Responsive Design]**
+- [ ] **[Social Media Integration]**
+- [ ] **[JavaScript Functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
