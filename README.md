@@ -19,13 +19,16 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-**[your_project__name]** is a responsive website that showcases my development skills. It includes a homepage, with an introduction to my work, a portfolio section with examples of my projects, and a contact page with a form to reach out to me. The website is built using HTML, and CSS, and is optimized for various screen sizes to provide an optimal user experience.
+**[Portfolio]** is a responsive website that showcases my development skills. It includes a homepage, with an introduction to my work, a portfolio section with examples of my projects, and a contact page with a form to reach out to me. The website is built using HTML, and CSS, and is optimized for various screen sizes to provide an optimal user experience.
+
+To acces the deployed website click on this link: https://innocent259.github.io/My-portfolio/
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Tech Stack <a name="HTML"></a>
+### Tech Stack <a name="CSS"></a>
+### Tech Stack <a name="Linters"></a>
+### Tech Stack <a name="GitHub"></a>
 
 <details>
   <summary>Client</summary>
@@ -56,10 +59,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
