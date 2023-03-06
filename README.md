@@ -21,8 +21,6 @@
 
 **[Portfolio]** is a responsive website that showcases my development skills. It includes a homepage, with an introduction to my work, a portfolio section with examples of my projects, and a contact page with a form to reach out to me. The website is built using HTML, and CSS, and is optimized for various screen sizes to provide an optimal user experience.
 
-To acces the deployed website click on this link: https://innocent259.github.io/My-portfolio/
-
 ## 🛠 Built With <a name="built-with"></a>
 
 -HTML, CSS, Linters, and GitHub
@@ -52,6 +50,7 @@ To acces the deployed website click on this link: https://innocent259.github.io/
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://www.loom.com/share/c6adcc8020ae40c9a7d64e3bc3f9a937)
+- [Live Demo Link](https://innocent259.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
