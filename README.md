@@ -25,10 +25,7 @@ To acces the deployed website click on this link: https://innocent259.github.io/
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="HTML"></a>
-### Tech Stack <a name="CSS"></a>
-### Tech Stack <a name="Linters"></a>
-### Tech Stack <a name="GitHub"></a>
+-HTML, CSS, Linters, and GitHub
 
 <details>
   <summary>Client</summary>
@@ -54,7 +51,7 @@ To acces the deployed website click on this link: https://innocent259.github.io/
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/7f24ada1fc6f40868fc4c9a6e934fb7b)
+- [Live Demo Link](https://www.loom.com/share/c6adcc8020ae40c9a7d64e3bc3f9a937)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
