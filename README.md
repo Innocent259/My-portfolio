@@ -19,13 +19,11 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-**[your_project__name]** is a responsive website that showcases my development skills. It includes a homepage, with an introduction to my work, a portfolio section with examples of my projects, and a contact page with a form to reach out to me. The website is built using HTML, and CSS, and is optimized for various screen sizes to provide an optimal user experience.
+**[Portfolio]** is a responsive website that showcases my development skills. It includes a homepage, with an introduction to my work, a portfolio section with examples of my projects, and a contact page with a form to reach out to me. The website is built using HTML, and CSS, and is optimized for various screen sizes to provide an optimal user experience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
+-HTML, CSS, Linters, and GitHub
 
 <details>
   <summary>Client</summary>
@@ -51,15 +49,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/7f24ada1fc6f40868fc4c9a6e934fb7b)
+- [Loom video Link](https://www.loom.com/share/c6adcc8020ae40c9a7d64e3bc3f9a937)
+- [Live Demo Link](https://innocent259.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
