@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/c6adcc8020ae40c9a7d64e3bc3f9a937)
+- [Loom video Link](https://www.loom.com/share/c6adcc8020ae40c9a7d64e3bc3f9a937)
 - [Live Demo Link](https://innocent259.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
