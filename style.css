@@ -3,16 +3,58 @@
   margin: 0;
 }
 
+.ul-items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 92px 24px 0 24px;
+}
+
+.ul-items a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.button-img {
+  height: 48px;
+  border: 1px solid #a4bbe2;
+  margin-top: 20px;
+}
+
+.img-cancel {
+  border: 1px solid red;
+  float: right;
+}
+
+.new-container {
+  background-color: #3c3a39;
+  color: #fff5e1;
+  height: 100vh;
+  min-width: 375px;
+  width: 100%;
+  border: 1px solid green;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 body {
   height: auto;
   width: 100%;
 }
 
-.first-section {
+.homepage {
   min-width: 375px;
   background: url("images/Illustration.svg") bottom -11% right no-repeat;
   background-color: #1c1a19;
   width: 100%;
+  height: fit-content;
 }
 
 .nav {
@@ -51,6 +93,12 @@ body {
   padding: 72px 24px 120px 24px;
 }
 
+.main-main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .main-header {
   font-family: 'Crete Round', serif;
   color: #ff6b00;
@@ -66,13 +114,19 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #fff5e1;
-  font-size: 1.5rem;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .main-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .social-media {
@@ -80,7 +134,7 @@ body {
   align-items: center;
   padding-left: 0;
   height: 40px;
-  min-width: 200px;
+  width: 200px;
 }
 
 li {
@@ -513,7 +567,7 @@ textarea:focus {
     color: #fff;
   }
 
-  .first-section {
+  .homepage {
     background-image: none;
     background-image: url("images/Illustration-header.svg");
     background-repeat: no-repeat;
@@ -751,5 +805,9 @@ textarea:focus {
 
   .button-submit {
     margin-left: 0;
+  }
+
+  .new-container {
+    display: none;
   }
 }
