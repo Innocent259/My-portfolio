@@ -18,10 +18,8 @@ body {
 }
 
 .new-container {
-  color: #fff5e1;
   min-width: 375px;
   width: 100%;
-  border: 1px solid green;
   position: absolute;
   top: 0;
   left: 0;
@@ -37,7 +35,7 @@ body {
   align-items: center;
   justify-content: end;
   height: 48px;
-  margin-top: 53px;
+  margin-top: 4px;
   padding-right: 30px;
 }
 
@@ -49,7 +47,7 @@ body {
 }
 
 .ul-items a {
-  color: #fff;
+  color: #fff5e1;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -57,6 +55,7 @@ body {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+  padding-left: 8px;
 }
 
 .new-line-1 {
@@ -167,7 +166,6 @@ li {
 
 .experience-container {
   display: grid;
-  grid-template-columns: repeat(1, minmax(375px));
   grid-auto-rows: auto;
   grid-gap: 24px;
   padding: 120px 24px 120px 24px;
@@ -313,7 +311,6 @@ li {
   background: url("images/Frame.svg") bottom right  no-repeat;
   background-position-y: 25%;
   display: grid;
-  grid-template-columns: 1;
   grid-template-rows: auto;
   justify-content: center;
   padding: 120px 24px 120px 24px;
@@ -408,8 +405,6 @@ li {
 .button:hover {
   background-color: #fff5e1;
   color: #f55800;
-  translate: rotate(0.2s);
-  translate: scale(0.4s);
 }
 
 .form {
