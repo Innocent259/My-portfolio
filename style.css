@@ -33,18 +33,11 @@ body {
 
 .button-img {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: end;
   height: 48px;
-  border: 1px solid #a4bbe2;
   margin-top: 53px;
-}
-
-.img-cancel {
-  border: 1px solid red;
-  margin-left: auto;
-  padding-right: 10%;
-  height: 40px;
-  width: 40px;
+  padding-right: 30px;
 }
 
 .ul-items {
