@@ -11,20 +11,17 @@ div.innerHTML = `
         <ul class="ul-items">
             <li>
                 <a href="#portfolio">Portfolio</a>
-                <hr>
+                <hr class="new-line-1">
             </li>
             <li>
                 <a href="#about">About</a>
-                <hr>
+                <hr class="new-line-1">
             </li>
             <li>
                 <a href="#contact">Contact</a>
-                <hr>
+                <hr class="new-line-1">
             </li>   
         </ul>
-    </span>
-    <span class="ending">
-        <hr class="new-line-2">
     </span>
 </div>
 `;
@@ -45,15 +42,12 @@ menu.addEventListener('click', handleClick);
 
 removeItems.addEventListener('click', removeChild);
 
-document.querySelector("body").addEventListener(
-  "click",
-  function (e) {
-    var anchor = e.target.closest("a");
+document.querySelector('body').addEventListener('click',
+  (e) => {
+    const anchor = e.target.closest('a');
     if (anchor !== null) {
-      console.log(anchor.textContent);
       div.parentNode.removeChild(div);
-      document.body.style.overflow = "scroll";
+      document.body.style.overflow = 'scroll';
     }
   },
-  false
-);
+  false);

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   height: auto;
   width: 100%;
@@ -28,7 +29,7 @@ body {
 
 .button-and-list {
   background-color: #3c3a39;
-  height: 90%;
+  height: 80%;
 }
 
 .button-img {
@@ -58,14 +59,8 @@ body {
   text-align: left;
 }
 
-.ending {
-  height: 48px;
-  border: 2px solid blue;
-  align-self: flex-end;
-  width: 50%;
-  bottom: 0;
-  margin: auto;
-  padding-bottom: 0%;
+.new-line-1 {
+  border: 1px solid #6f6c6b;
 }
 
 .homepage {
