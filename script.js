@@ -11,15 +11,15 @@ div.innerHTML = `
         </a>
         <ul class="ul-items">
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a id='portButton' href="#portfolio">Portfolio</a>
                 <hr class="new-line-1">
             </li>
             <li>
-                <a href="#about">About</a>
+                <a id='aboutButton' href="#about">About</a>
                 <hr class="new-line-1">
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a id='contacttButton' href="#contact">Contact</a>
                 <hr class="new-line-1">
             </li>   
         </ul>
@@ -31,7 +31,18 @@ const menu = document.querySelector('.nav-menu');
 function handleClick() {
   document.body.appendChild(div);
   document.body.style.overflow = 'hidden';
+  let portbtn = document.getElementById("portButton").onclick = function() {
+ document.body.style.overflow = "scroll";
+  }
+  let aboutbtn = document.getElementById("aboutButton").onclick = function() {
+ document.body.style.overflow = "scroll";
+  }
+  let contactbtn = document.getElementById("contactButton").onclick = function() {
+ document.body.style.overflow = "scroll";
+};
+
 }
+
 const removeItems = div.querySelector('.button-img');
 
 function removeChild() {
@@ -43,15 +54,15 @@ menu.addEventListener('click', handleClick);
 
 removeItems.addEventListener('click', removeChild);
 
-document.querySelector('body').addEventListener('click',
-  (e) => {
-    const anchor = e.target.closest('a');
-    if (anchor !== null) {
-      div.parentNode.removeChild(div);
-      document.body.style.overflow = 'scroll';
-    }
-  },
-  false);
+// document.querySelector('body').addEventListener('click',
+//   (e) => {
+//     const anchor = e.target.closest('a');
+//     if (anchor !== null) {
+//       div.parentNode.removeChild(div);
+//       document.body.style.overflow = 'scroll';
+//     }
+//   },
+//   false);
 
   //Popup
 
@@ -127,17 +138,23 @@ let content = ''
 data.forEach(item => {
   content = `
   <div class="popup-details-container">
-    <span class="popup-name-image">
+    <div class="project-top>
+       <span class="popup-name-image">
       <h1 class="popup-name">${item.title}</h1>
       <img src=${item.iconCancel} class="popup-image"> 
-    </span>
-    <ul class="popup-unorded-list">
-      <li class="popup-list">${item.technologies[0]}</li>
-      <li class="popup-list">${item.technologies[1]}</li>
-      <li class="popup-list">${item.technologies[2]}</li>
-    </ul>
-    <img src=${item.featureImg} class="popup-feature-img">
-    <p class="popup-description">${item.description}</p>
+      </span>
+      <ul class="popup-unorded-list">
+        <li class="popup-list">${item.technologies[0]}</li>
+        <li class="popup-list">${item.technologies[1]}</li>
+        <li class="popup-list">${item.technologies[2]}</li>
+      </ul>
+    </div>
+
+    <div class="project-bottom>
+      <img src=${item.featureImg} class="popup-feature-img">
+
+    <div class="project-right">
+      <p class="popup-description">${item.description}</p>
     <span class="popup-button">
       <button class="popup-button-1">
         <a href=${item.liveLink}>See Project</a>
@@ -148,12 +165,24 @@ data.forEach(item => {
         <img src="./images/Frame22.svg">
       </button>
     </span>   
+    </div>
+    </div>
   </div> 
-  `
+  `;
 })
 section.innerHTML = content;
 function createPopup() {
   document.body.appendChild(section)
+   document.body.style.overflow = "hidden";
+   let closeProject = document.querySelector(".popup-image");
+   console.log(closeProject)
+   closeProject.addEventListener('click', closePopup)
+  // section.classList.add(classStyle)
+}
+
+function closePopup() {
+  document.body.removeChild(section)
+   document.body.style.overflow = "scroll";
   // section.classList.add(classStyle)
 }
 
