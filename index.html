@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script defer src="script.js"></script>
+        <script defer src="form.js"></script>
     </head>
     <body>
         <div class="homepage">
@@ -267,11 +268,13 @@
                     <hr class="line-y">
                 </div>
                 <div class="input">
-                    <input class="input-x" type="email" placeholder="Email address" required> 
+                    <input class="input-x" type="email" id="email-valid" placeholder="Email address" required> 
+                    <span id="email-feedback-yes"></span>
+                    <span id="email-feeback-wrong"></span>
                     <hr class="line-y">
                 </div>
                 <textarea class="textarea" placeholder="Enter Text Here" name="textarea" maxlength="500" required></textarea>
-                <button class="button-submit button" type="submit">Get in touch</button>
+                <button class="button-submit button" type="submit" onclick="checkValid()">Get in touch</button>
             </form>  
         </section> 
         <hr class="line-f">
