@@ -131,9 +131,7 @@ data.forEach((item) => {
       <img src=${item.iconCancel} class="popup-image"> 
     </span>
     <ul class="popup-unorded-list">
-      <li class="popup-list">${item.technologies[0]}</li>
-      <li class="popup-list">${item.technologies[1]}</li>
-      <li class="popup-list">${item.technologies[2]}</li>
+    ${item.technologies.map((itemList) => `<li class="popup-list">${itemList}</li>`).join('')}
     </ul>
     <span class="desktop-diff">
       <img src=${item.featureImg} class="popup-feature-img">
