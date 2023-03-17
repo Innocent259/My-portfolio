@@ -559,6 +559,14 @@ textarea:focus {
   outline: none;
 }
 
+#feeback-wrong {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  width: 30%;
+  border: none;
+  color: rgb(217, 21, 21);
+}
+
 .textarea {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
