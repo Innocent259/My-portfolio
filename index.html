@@ -9,8 +9,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <script defer src="script.js"></script>
-        <script defer src="form.js"></script>
     </head>
     <body>
         <div class="homepage">
@@ -262,16 +260,16 @@
                 I'm always interested in hearing about new projects,
                 so if you'd like to chat please get in touch
             </h2>
-            <form class="form-form" action="https://formspree.io/f/xnqyvdnr" method="post">
+            <form class="form-form" id="form-id" action="https://formspree.io/f/xnqyvdnr" method="post">
                 <div class="input">
-                    <input class="input-x" type="text" placeholder="Full name" maxlength="50" required>
+                    <input class="input-x" id="name-id" type="text" placeholder="Full name" maxlength="50" required>
                     <hr class="line-y">
                 </div>
                 <div class="input">
                     <input class="input-x" type="email" id="email-valid" placeholder="Email address" required> 
                     <hr class="line-y">
                 </div>
-                <textarea class="textarea" placeholder="Enter Text Here" name="textarea" maxlength="500" required></textarea>
+                <textarea class="textarea" id="text-id" placeholder="Enter Text Here" name="textarea" maxlength="500" required></textarea>
                 <span id="feeback-wrong"></span>
                 <button class="button-submit button" type="submit">Get in touch</button>
             </form>  
@@ -307,5 +305,8 @@
             </ul>
             <hr class="line-z">
     </footer>
+    <script defer src="script.js"></script>
+    <script defer src="form.js"></script>
+    <script defer src="localStorage.js"></script>
     </body>
 </html>
