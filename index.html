@@ -20,16 +20,16 @@
                     <img src="./images/menu.png" alt="menu-icon" class ="nav-menu" />
                     <ul class="links">
                         <li>
-                            <a href="#">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#form-id">
                                 <img src="./images/Icon - Mail.svg" alt="Mail-icon" class="mail-icon" />
                             </a>
                         </li>   
@@ -101,7 +101,7 @@
                             <li class="list-1">Bootstrap</li>
                             <li class="list-1">Ruby</li>
                         </ul>
-                        <button class="project-1-btn button popup">See Project</button>
+                        <button class="project-1-btn button popup" type="button">See Project</button>
                     </span> 
                 </div>
                 <div class="common-components">
@@ -262,16 +262,16 @@
                 I'm always interested in hearing about new projects,
                 so if you'd like to chat please get in touch
             </h2>
-            <form class="form-form" action="https://formspree.io/f/xnqyvdnr" method="post">
+            <form class="form-form" id="form-id" action="https://formspree.io/f/xnqyvdnr" method="post">
                 <div class="input">
-                    <input class="input-x" type="text" placeholder="Full name" maxlength="50" required>
+                    <input class="input-x" id="name-id" type="text" placeholder="Full name" maxlength="50" required>
                     <hr class="line-y">
                 </div>
                 <div class="input">
                     <input class="input-x" type="email" id="email-valid" placeholder="Email address" required> 
                     <hr class="line-y">
                 </div>
-                <textarea class="textarea" placeholder="Enter Text Here" name="textarea" maxlength="500" required></textarea>
+                <textarea class="textarea" id="text-id" placeholder="Enter Text Here" name="textarea" maxlength="500" required></textarea>
                 <span id="feeback-wrong"></span>
                 <button class="button-submit button" type="submit">Get in touch</button>
             </form>  
