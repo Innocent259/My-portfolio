@@ -781,7 +781,7 @@ textarea:focus {
 
   .desk-proj1 {
     position: relative;
-    background: url("images/1image.png") 50% 50% /cover no-repeat;
+    background: url("images/todo.png") -9% 50% /cover no-repeat;
     border: 1px solid #091e42;
   }
 

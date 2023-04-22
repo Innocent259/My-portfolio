@@ -65,12 +65,12 @@ const data = [
     iconCancel: './images/Cancel.svg',
   },
   {
-    title: 'Keeping track of hundreds  of components website',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    featureImg: './images/Snapshoot.svg',
-    liveLink: '#pasteLink',
-    linkSource: 'githubLink',
+    title: 'To-do List',
+    description: "This a simple application of todo list, through this App you can add tasks you want to do remove them and edit them. The better thing is that you can mark all completed tasks and remove all of them ",
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    featureImg: './images/todo.png',
+    liveLink: '#https://innocent259.github.io/To-Do-list/',
+    linkSource: 'https://github.com/Innocent259/To-Do-list',
     iconCancel: './images/Cancel.svg',
   },
   {
