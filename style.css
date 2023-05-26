@@ -3,10 +3,9 @@
   margin: 0;
 }
 
-body {
-  height: auto;
-  width: 100%;
-}
+/* .container {
+
+} */
 
 .new-element-container {
   display: flex;
@@ -158,21 +157,14 @@ body {
   color: #fff;
 }
 
-.homepage {
-  min-width: 375px;
-  background: url("images/Illustration.svg") bottom -11% right no-repeat;
-  background-color: #1c1a19;
-  width: 100%;
-  height: 100vh;
-}
 
 .nav {
+  position: fixed;
   display: flex;
   background-color: #3c3a39;
   height: 48px;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding-left: 24px;
   padding-right: 36px;
 }
@@ -194,12 +186,15 @@ body {
   display: none;
 }
 
+.first-section {
+  width: 100%;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   gap: 12px;
   justify-content: space-between;
-  padding: 72px 24px 120px 24px;
 }
 
 .main-main {
